@@ -74,7 +74,7 @@ component output="false" {
 		vals = "";
 		key = "";
 		
-		for (var i=1;i LT ArrayLen(nvpArray);i=i+1)
+		for (var i=1;i LTE ArrayLen(nvpArray);i=i+1)
 		{ 
 			vals  = #nvpArray[i]#;
 			key = #keyArray[i]#;
